@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03092A"
+    android:orientation="vertical"
+    android:translationX="0dp"
+    android:translationY="0dp">
+
+    <Button
+        android:id="@+id/pushButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push"
+        android:translationY="34dp" />
+
+    <Button
+        android:id="@+id/pullButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pull"
+        android:translationY="49dp" />
+
+    <Button
+        android:id="@+id/legsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legs"
+        android:translationY="65dp" />
+
+</LinearLayout>

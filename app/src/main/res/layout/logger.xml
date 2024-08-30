@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03092A"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/exercise_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:translationX="0dp"
+        android:translationY="50dp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:text="+5"
+        android:translationX="130dp"
+        android:translationY="120dp" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:text="-5"
+        android:translationX="13dp"
+        android:translationY="72dp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:translationX="30dp"
+        android:translationY="70dp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:translationX="0dp"
+        android:translationY="-50dp" />
+</LinearLayout>

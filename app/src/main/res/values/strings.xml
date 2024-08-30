@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">weight_logger</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="push_day_image">Push Day Image</string>
+    <string name="testing">TextView</string>
+    <string-array name="Push_Exercises">
+        <item>Bench Press</item>
+        <item>Shoulder Press</item>
+        <item>Lat Raises</item>
+        <item>Pec Fly</item>
+        <item>Tricep Press</item>
+        <item>Incline Dumbbell Press</item>
+        <item>Tricep Pulldown</item>
+        <item>Dumbbell Pullover</item>
+        <item>Back</item>
+    </string-array>
+    <string-array name="Pull_Exercises">
+        <item>Row</item>
+        <item>Lat Pulldown</item>
+        <item>Seated Row</item>
+        <item>Bicep Curls</item>
+        <item>Rear Deltoid</item>
+        <item>Hammer Curl</item>
+        <item>Farmers Carry</item>
+        <item>Bayesian Curl</item>
+        <item>Back</item>
+    </string-array>
+    <string-array name="Leg_Exercises">
+        <item>Seated Leg Curl</item>
+        <item>Hip Abductor</item>
+        <item>Hip Abduction</item>
+        <item>Leg Extension</item>
+        <item>Seated Leg Press</item>
+        <item>Standing Calf</item>
+        <item>Back</item>
+    </string-array>
+</resources>
